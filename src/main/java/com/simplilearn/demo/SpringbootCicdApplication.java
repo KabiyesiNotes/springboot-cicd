@@ -15,7 +15,7 @@ public class SpringbootCicdApplication {
 
     @GetMapping("/")
     public String home() {
-        return "Spring Boot Inventory Management System is running successfully!";
+        return "Spring Boot Inventory Management System is running successfully! - CI/CD TEST v2";
     }
 
     @GetMapping("/health")
